@@ -1,0 +1,11 @@
+body {
+  background: #193549;
+  text-align: center;
+  color: white;
+  font-family:'helvetica neue', sans-serif;
+  font-weight:100;
+  font-size:50px;
+}
+.controls {
+  margin:3rem;
+}
