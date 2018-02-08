@@ -7,5 +7,23 @@ body {
   font-size:50px;
 }
 .controls {
-  margin:3rem;
+  margin:50px;
+}
+input {
+  width: 100px;
+}
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+} 
+/* -- is standard on CSS $ on SASS */
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+.h1 {
+  color: var(--base);
 }
